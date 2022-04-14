@@ -1,0 +1,9 @@
+#Lua
+
+function onTouched(touch)
+	plr = touch.Parent:findFirstChild("Humanoid")
+	if plr ~= nil then
+		plr.Torso.CFrame = CFrame.new("Where You Want Teleport Position")
+	end
+end
+script.Parent.Touched:Connect(onTouched)
