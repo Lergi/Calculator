@@ -1,5 +1,5 @@
 #Lua
---------roblox teleport code
+--------roblox teleport code------------------------------------------
 
 
 function onTouched(touch)
