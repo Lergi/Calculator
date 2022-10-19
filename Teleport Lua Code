@@ -1,4 +1,6 @@
 #Lua
+--------roblox teleport code
+
 
 function onTouched(touch)
 	plr = touch.Parent:findFirstChild("Humanoid")
